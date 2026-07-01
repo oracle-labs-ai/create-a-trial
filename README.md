@@ -6,7 +6,7 @@ Esta guía documenta el flujo para crear una cuenta de **Oracle Cloud Free Tier*
 
 ## 1. Abrir Oracle Cloud Free Tier
 
-1. Entra a la página de **Oracle Cloud Free Tier**.
+1. Entra a la página de [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/).
 2. Haz clic en **Start for free** para iniciar el registro.
 
 ![Oracle Cloud Free Tier](<images/Imagen 1.png>)
@@ -61,9 +61,20 @@ Confirma la contraseña en **Confirm Password** y verifica que aparezca **Passwo
 
 ## 7. Seleccionar la región principal
 
-En **Home Region**, busca y selecciona la región donde se creará la cuenta. En la captura se busca `chic` y se selecciona **US Midwest (Chicago)**.
+En **Home Region**, busca y selecciona la región donde se creará la cuenta. Para los laboratorios, usa una región que tenga modelos de **OCI Generative AI** disponibles.
 
-> La región principal no se puede cambiar fácilmente después. Selecciona la región más adecuada para tu laboratorio o la que el ejercicio requiera.
+Las siguientes regiones tienen servicios de IA disponibles:
+
+- **US Midwest (Chicago)**
+- **Brazil East (Sao Paulo)**
+- **Germany Central (Frankfurt)**
+- **EU Sovereign Central (Frankfurt)**
+- **UK South (London)**
+- **Japan Central (Osaka)**
+
+En la captura se busca `chic` y se selecciona **US Midwest (Chicago)**.
+
+> La región principal no se puede cambiar fácilmente después. Selecciona la región más adecuada para tu laboratorio.
 
 ![Selección de Home Region](<images/Imagen 7.png>)
 
